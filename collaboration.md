@@ -48,9 +48,11 @@
       `
 
     * After you complete the task, switch to your master branch using:
+    
     `$ git checkout master`
 
     * Push your branch using:
+    
     `$ git push origin <BRANCH NAME>`
 
 
