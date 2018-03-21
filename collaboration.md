@@ -49,11 +49,11 @@
 
     * After you complete the task, switch to your master branch using:
     
-    `$ git checkout master`
+      `$ git checkout master`
 
     * Push your branch using:
     
-    `$ git push origin <BRANCH NAME>`
+      `$ git push origin <BRANCH NAME>`
 
 
     * Go to GitHub and create a pull request. Wait for the tech lead to review and merge the branch to master.
