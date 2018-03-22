@@ -24,27 +24,29 @@
     <header role="banner">
       <!-- * Upper Part: Accessibility * -->
         <!-- Skip -->
-        <div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="row  pull-left">
           <a href="#main">Skip to main content</a>
+          </div>
         </div>
 
-        <!-- Enable high contrast -->
-        <div>
-          <input type="checkbox" id="highContrastEnable" name="highContrastEnable">
-          <label for="highContrastEnable">High Contrast</label>
-        </div>
+        <div class="col-xs-6 col-sm-9">
+          <div class="row  pull-right">
+            <!-- Enable high contrast -->
+            <input type="checkbox" id="highContrastEnable" name="highContrastEnable">
+            <label for="highContrastEnable">High Contrast</label>
 
-        <!-- Adjust font size -->
-        <div>
-          <button type="button" class="small-font">A&#8722;
-            <span class="sr-only">Decrease Text Size</span>
-          </button>
-          <button type="button" class="normal-font">A
-            <span class="sr-only">Default Text Size</span>
-          </button>
-          <button type="button" class="big-font">A+
-            <span class="sr-only">Increase Text Size</span>
-          </button>
+            <!-- Adjust font size -->
+            <button type="button" class="small-font">A&#8722;
+              <span class="sr-only">Decrease Text Size</span>
+            </button>
+            <button type="button" class="normal-font">A
+              <span class="sr-only">Default Text Size</span>
+            </button>
+            <button type="button" class="big-font">A+
+              <span class="sr-only">Increase Text Size</span>
+            </button>
+          </div>
         <div>
 
       <!-- * Lower Part: Logo & Nav Options * -->
@@ -56,7 +58,6 @@
 
     <!-- Body -->
     <main id="main" tabindex="-1" role="main">
-      <h1>Fashionable Adoptions</h1>
     </main>
       <!-- Section 1: Hero Image(s)-->
         <!-- Heading -->
