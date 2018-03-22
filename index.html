@@ -18,39 +18,46 @@
       <!-- JAVASCRIPT -->
       <script type="text/javascript" src="js/common.js"></script>
   </head>
-  <body> 
+  <body>
 
     <!-- Navigation -->
-      <!-- * Accessibility * -->
+    <header role="banner">
+      <!-- * Upper Part: Accessibility * -->
         <!-- Skip -->
+        <div>
+          <a href="#main">Skip to main content</a>
+        </div>
 
         <!-- Enable high contrast -->
-        <input type="checkbox" id="highContrastEnable" name="highContrastEnable">
-        <label for="highContrastEnable">High Contrast</label>
+        <div>
+          <input type="checkbox" id="highContrastEnable" name="highContrastEnable">
+          <label for="highContrastEnable">High Contrast</label>
+        </div>
 
         <!-- Adjust font size -->
-        <button type="button" class="small-font">A&#8722;
-          <span class="sr-only">Decrease Text Size</span>
-        </button>
-        <button type="button" class="normal-font">A
-          <span class="sr-only">Default Text Size</span>
-        </button>
-        <button type="button" class="big-font">A+
-          <span class="sr-only">Increase Text Size</span>
-        </button>
+        <div>
+          <button type="button" class="small-font">A&#8722;
+            <span class="sr-only">Decrease Text Size</span>
+          </button>
+          <button type="button" class="normal-font">A
+            <span class="sr-only">Default Text Size</span>
+          </button>
+          <button type="button" class="big-font">A+
+            <span class="sr-only">Increase Text Size</span>
+          </button>
+        <div>
 
-      <!-- FA logo -->
+      <!-- * Lower Part: Logo & Nav Options * -->
+        <!-- FA logo -->
 
-      <!-- Nav options -->
+        <!-- Nav options -->
+    </header>
+
 
     <!-- Body -->
-    <h1>Test Text</h1>
-    <p1>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec odio quis purus congue varius. Ut augue metus, venenatis nec molestie sit amet, tincidunt non sapien. Sed sed risus sed nunc fermentum ultricies. Praesent eleifend lacus sit amet porta sodales. Duis nec lectus viverra risus vestibulum finibus. Praesent sagittis, magna et semper blandit, arcu quam ultrices arcu, quis volutpat est odio vel nisi. Curabitur finibus pretium purus, vel cursus metus pellentesque ut.
-
-      Vivamus vel felis vitae nibh porttitor ornare eget et dolor. Cras ut cursus risus, ut dictum nunc. Duis et odio magna. Pellentesque a venenatis lorem. Nam ornare ex ut quam semper pharetra. Ut consectetur gravida pretium. Integer nisl massa, tristique quis rutrum a, sodales id turpis. Donec eget cursus purus, eget condimentum nisl. Etiam id rutrum augue, ac ornare tellus. Etiam rhoncus, orci hendrerit finibus interdum, est sem posuere nisi, et vestibulum mauris arcu sit amet mi. Aliquam rhoncus ligula pellentesque enim placerat, in scelerisque metus hendrerit. Maecenas posuere eros vitae dolor mollis cursus. Aliquam erat volutpat. Nulla varius ac tellus ut egestas. Nullam velit mi, fringilla eu bibendum sit amet, laoreet et odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-    </p1>
-
+    <main id="main" tabindex="-1" role="main">
+      <h1>Fashionable Adoptions</h1>
+    </main>
       <!-- Section 1: Hero Image(s)-->
         <!-- Heading -->
         <!-- Text -->
@@ -90,5 +97,6 @@
       <!-- Social Medi Buttons -->
         <!-- Email -->
         <!-- Facebook -->
+
   </body>
 </html>
