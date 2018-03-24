@@ -3,15 +3,18 @@
   <head>
     <title>Fashionable Adoptions - Home</title>
     <meta charset="UTF-8">
-
     <!-- Style -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="js/common.js"></script>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- CSS -->
       <link rel="stylesheet" type="text/css" href="css/common.css">
       <link rel="stylesheet" type="text/css" href="css/high-contrast.css">
       <!-- Bootstrap -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <!-- Jquery -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -23,10 +26,11 @@
     <!-- Navigation -->
     <header role="banner">
       <!-- * Upper Part: Accessibility * -->
+      <div class="upper_header row innerWrapper">
         <!-- Skip -->
         <div class="col-sm-3 col-xs-6">
           <div class="row  pull-left">
-          <a href="#main">Skip to main content</a>
+            <a href="#main">Skip to main content</a>
           </div>
         </div>
 
@@ -35,24 +39,49 @@
             <!-- Enable high contrast -->
             <input type="checkbox" id="highContrastEnable" name="highContrastEnable">
             <label for="highContrastEnable">High Contrast</label>
-
             <!-- Adjust font size -->
             <button type="button" class="small-font">A&#8722;
-              <span class="sr-only">Decrease Text Size</span>
+            <span class="sr-only">Decrease Text Size</span>
             </button>
             <button type="button" class="normal-font">A
-              <span class="sr-only">Default Text Size</span>
+            <span class="sr-only">Default Text Size</span>
             </button>
             <button type="button" class="big-font">A+
-              <span class="sr-only">Increase Text Size</span>
+            <span class="sr-only">Increase Text Size</span>
             </button>
           </div>
-        <div>
-
-      <!-- * Lower Part: Logo & Nav Options * -->
-        <!-- FA logo -->
-
-        <!-- Nav options -->
+        </div>
+      </div>
+          <!-- * Lower Part: Logo & Search Panel * -->
+          <div class="lower_header innerWrapper">
+            <!-- FA logo -->
+            <div class="logo">
+              <a href="#" class="imgLink"><img src="img/FA_logo.jpg" width="200" height="100" alt="Fashionable Adoptions homepage" class="center-block img-responsive"></a>
+             </div>
+            <!-- Search -->
+            <div class="search col-xs-8 col-sm-9">
+              <form role="search" id="webSearch" class="pull-right" action="./Search.html" method="get">
+                <label for="searchField" class="searchLabel">Website Search</label>
+                <input type="text" id="searchFideld" class"" name="searchField">
+                <button id="searchSubmit" value="Search" class="btn">Search</button>
+              </form>
+            </div>
+          </div>
+          <!-- Nav options -->
+          <nav class="navbar navbar-inverse innerWrapper" role="navigation" aria-label="Primary">
+            <div class="container-fluid">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="menuitem"><a href="#">Community Servic</a></li>
+                <li class="menuitem"><a href="#">Meet Our Models</a></li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+        <!-- Body -->
+        <main id="main" tabindex="-1" role="main">
+        </main>
+        <!-- Section 1: Hero Image(s)-->
     </header>
 
 
@@ -60,44 +89,77 @@
     <main id="main" tabindex="-1" role="main">
     </main>
       <!-- Section 1: Hero Image(s)-->
+
         <!-- Heading -->
         <!-- Text -->
         <!-- Image -->
-
-      <!-- Section 2: Our Mission-->
+        <!-- Section 2: Our Mission-->
         <!-- Heading -->
         <!-- Text -->
         <!-- Image -->
-
-      <!-- Section 3: Our Founder(s)-->
+        <!-- Section 3: Our Founder(s)-->
         <!-- Heading -->
         <!-- Text -->
         <!-- Image -->
-
-      <!-- Section 5: Support FA-->
+        <!-- Section 5: Support FA-->
         <!-- * Volunteer -->
-          <!-- Heading -->
-          <!-- Image -->
-          <!-- Text -->
-          <!-- Button -->
-
+        <!-- Heading -->
+        <!-- Image -->
+        <!-- Text -->
+        <!-- Button -->
         <!-- * Donate -->
-          <!-- Heading -->
-          <!-- Image -->
-          <!-- Text -->
-          <!-- Button -->
-
+        <!-- Heading -->
+        <!-- Image -->
+        <!-- Text -->
+        <!-- Button -->
         <!-- * Subscribe -->
-          <!-- Heading -->
-          <!-- Image -->
-          <!-- Text -->
-          <!-- Form -->
-          <!-- Button -->
 
-    <!-- Footer -->
-      <!-- Social Medi Buttons -->
+        <!-- Begin MailChimp Signup Form -->
+        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+          #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+          /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+             We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+        </style>
+        <div id="mc_embed_signup">
+          <form action="https://fashionableadoptions.us12.list-manage.com/subscribe/post?u=14be354e4b712c89440cfd867&amp;id=171b104ca2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+            <h2>Subscribe to our mailing list</h2>
+            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+            <div class="mc-field-group">
+              <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+            </div>
+            <div class="mc-field-group">
+              <label for="mce-NAME">Name </label>
+              <input type="text" value="" name="NAME" class="" id="mce-NAME">
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_14be354e4b712c89440cfd867_171b104ca2" tabindex="-1" value=""></div>
+              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </div>
+          </form>
+        </div>
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='NAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+        <!--End mc_embed_signup-->
+
+
+        <!-- Heading -->
+        <!-- Image -->
+        <!-- Text -->
+        <!-- Form -->
+        <!-- Button -->
+        <!-- Footer -->
+        <!-- Social Medi Buttons -->
         <!-- Email -->
         <!-- Facebook -->
+
+      </body>
+    </html>
+
 
   </body>
 </html>
