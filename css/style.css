@@ -1,13 +1,11 @@
-
 header, div, nav, form, {
 	display:block;
 }
 
-
 .innerWrapper{
-		padding-left:40px;
-		padding-right:40px;
-	}
+	padding-left:40px;
+	padding-right:40px;
+}
 
 .upper_header {
 	position:relative;
@@ -17,27 +15,23 @@ header, div, nav, form, {
 
 .lower_header{
 	background: #000000;
-    color:#fff;
-    overflow: auto;	
+  color:#fff;
+  overflow: auto;
 }
 
 .navbar{
-min-height:30px;
-position:inherit;
-margin-bottom:0;
+	min-height:30px;
+	position:inherit;
+	margin-bottom:0;
 }
 
-
-
 .navbar-inverse {
-background-color:#000000;
+	background-color:#000000;
 }
 
 .search{
 	padding:10px 0;
-
 }
-
 
 .alignCenter{
 	text-align: center;
@@ -47,5 +41,3 @@ background-color:#000000;
 {
 	position:inherit !important;
 }
-
-

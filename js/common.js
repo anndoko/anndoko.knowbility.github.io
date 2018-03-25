@@ -20,5 +20,4 @@ $(document).ready(function() {
   $(".big-font").click(function(){
 		$("body").css("font-size","24px");
 	});
-
 });
