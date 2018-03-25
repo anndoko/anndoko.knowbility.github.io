@@ -9,20 +9,22 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/carousel.css">
     <link rel="stylesheet" type="text/css" href="css/high-contrast.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- JAVASCRIPT -->
-    <script type="text/javascript" src="js/common.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/carousel.js"></script>
   </head>
   <body>
     <!-- Navigation -->
     <header role="banner">
       <!-- * Upper Part: Accessibility * -->
-      <div class="upper_header row innerWrapper">
+      <div class="upper_header row">
         <!-- Skip -->
-        <div class="col-sm-3 col-xs-6">
+        <div class="col-xs-6 col-sm-3">
           <div class="row  pull-left">
             <a href="#main">Skip to main content</a>
           </div>
@@ -46,13 +48,9 @@
         </div>
       </div>
       <!-- * Lower Part: Logo & Search Panel * -->
-      <div class="lower_header innerWrapper">
-        <!-- FA logo -->
-        <div class="logo">
-          <a href="#" class="imgLink"><img src="img/FA_logo.jpg" width="200" height="100" alt="Fashionable Adoptions homepage" class="center-block img-responsive"></a>
-         </div>
-        <!-- Search -->
-        <div class="search col-xs-8 col-sm-9">
+      <!-- Search -->
+      <div class="search">
+        <div class="row">
           <form role="search" id="webSearch" class="pull-right" action="./Search.html" method="get">
             <label for="searchField" class="searchLabel">Website Search</label>
             <input type="text" id="searchFideld" class"" name="searchField">
@@ -60,25 +58,27 @@
           </form>
         </div>
       </div>
-      <!-- Nav options -->
+      <!-- Navbar -->
       <nav class="navbar navbar-inverse innerWrapper" role="navigation" aria-label="Primary">
+        <!-- FA logo -->
+        <div class="logo">
+          <a href="#" class="imgLink"><img src="img/FA_logo.jpg" width="200" height="100" alt="Fashionable Adoptions homepage" class="center-block img-responsive"></a>
+        </div>
+        <!-- Nav options -->
         <div class="container-fluid">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li class="menuitem"><a href="#">Community Servic</a></li>
-            <li class="menuitem"><a href="#">Meet Our Models</a></li>
+            <li class="menuitem"><a href="service.html">Community Servic</a></li>
+            <li class="menuitem"><a href="model.html">Meet Our Models</a></li>
           </ul>
         </div>
       </nav>
     </header>
     <!-- Body -->
     <main id="main" tabindex="-1" role="main">
-
-        <div class="homepageSection" id="HomeMain">
-          <section class="alignCenter">
-          <h1 class="innerWrapper alignLeft">Fashionable Adoption</h1>
-
-        <!-- Section 1: Hero Image(s)-->
+      <div class="homepageSection" id="HomeMain">
+        <h1 class="innerWrapper alignLeft">Fashionable Adoption</h1>
+        <!-- Section 0: Hero Image(s)-->
         <section id="Heroimage" class="alignCenter">
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -119,52 +119,65 @@
             </a>
           </div>
         </section>
-        <!-- Section 2: Our Mission-->
+        <!-- Section 1: Our Mission-->
         <section id="Mission" class="alignCenter">
           <h2>MISSION</h2>
           <div class="container innerWrapper">
             <div class="row">
-              <p class="col-sm-6"> Fashionable Adoptions is an organization aimed at increasing pet adoption and helping alleviate overcrowding at animal shelters in San Antonio by combining fashion, philanthropy, and education to the public. We believe there needs to be more awareness surrounding animal adoption and kill shelters and our approach sheds a fun and fashionable light on an otherwise sad topic. Our hearts are pulled to the many furry faces that long to have a warm bed and family to call their own. We have partnered up with local shelters and organizations to help shine a light in a glamorous way to those who are eager to be loved.</p>
-              <img src="img/FA_logo_white.jpg"  alt="Fashionable Adoptions logo" class="col-sm-6">
+              <div class="col-xs-12 col-sm-6">
+                <h3>About Fashionable Adoptions</h3>
+                <p>Fashionable Adoptions is an organization aimed at increasing pet adoption and helping alleviate overcrowding at animal shelters in San Antonio by combining fashion, philanthropy, and education to the public. We believe there needs to be more awareness surrounding animal adoption and kill shelters and our approach sheds a fun and fashionable light on an otherwise sad topic. Our hearts are pulled to the many furry faces that long to have a warm bed and family to call their own. We have partnered up with local shelters and organizations to help shine a light in a glamorous way to those who are eager to be loved.</p>
+              </div>
+              <div class="col-xs-12 col-sm-6 ">
+                <img src="img/FA_logo_white.jpg" alt="Fashionable Adoptions logo">
+              </div>
             </div>
           </div>
         </section>
-        <!-- Section 3: Our Founder(s)-->
+        <hr/>
+        <!-- Section 2: Our Founder(s)-->
         <section id="Founder" class="alignCenter">
           <h2>OUR FOUNDER</h2>
           <div class="container innerWrapper">
             <div class="row">
-              <img src="img/Crystal.jpg"  alt="Founder's photo" class="col-sm-6">
-              <p class="col-sm-6">
-              Crystal Lopez-Crebs
-              Crystal Lopez-Crebs took her passion and love for animals and created Fashionable Adoptions. Her fire to fight for those who cannot fight for themselves in sewn into all the work that she has done to be a voice for the cause. Whether volunteering her time at the shelter, creating events to bring awareness, or going home to love on her own dog and appreciate the true value an animal can have on your life, Crystal lives to advocate for all animals.</p>
+              <div class="col-xs-12 col-sm-6">
+                <img src="img/Crystal.jpg"  alt="Founder's photo">
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <h3>Crystal Lopez-Crebs</h3>
+                <p>Crystal Lopez-Crebs took her passion and love for animals and created Fashionable Adoptions. Her fire to fight for those who cannot fight for themselves in sewn into all the work that she has done to be a voice for the cause. Whether volunteering her time at the shelter, creating events to bring awareness, or going home to love on her own dog and appreciate the true value an animal can have on your life, Crystal lives to advocate for all animals.</p>
+              </div>
             </div>
           </div>
         </section>
-        <!-- Support -->
+        <hr/>
+        <!-- Section 3: Support -->
         <section id="Support" class="alignCenter">
           <h2>SUPPORT US</h2>
           <div class="container innerWrapper">
             <div class="row">
-              <div class="volunteer col-sm-4">
+              <div class="col-xs-12 col-sm-4">
+                <h3>Volunteer</h3>
                 <img src="img/volunteer.png"  alt="Volunteer">
                 <p>volunteer_text</p>
                 <button type="button" class="btn btn-primary">Act Now</button>
               </div>
-              <div class="Donate col-sm-4">
+              <div class="col-xs-12 col-sm-4">
+                <h3>Donate</h3>
                 <img src="img/volunteer.png"  alt="Donate">
                 <p>donate_text</p>
                 <button type="button" class="btn btn-primary">Donate</button>
               </div>
-              <div class="Subscribe col-sm-4">
+              <div class="col-xs-12 col-sm-4">
+                <h3>Subscribe</h3>
                 <img src="img/volunteer.png"  alt="Subscribe">
                 <p>subscribe_text</p>
                 <button type="button" class="btn btn-primary">Subscribe</button>
-
               </div>
             </div>
           </div>
         </section>
+        <hr/>
         <!-- * Subscribe * -->
         <section id="Subscribe" class="alignCenter">
           <div class="container innerWrapper">
@@ -202,6 +215,8 @@
             </script>
           </div>
         </section>
+        <hr/>
+      </div>
     </main>
     <!-- Footer -->
     <footer>
