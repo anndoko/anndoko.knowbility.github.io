@@ -36,3 +36,16 @@ header, div, nav, form, {
 .alignCenter{
 	text-align: center;
 }
+
+/* buttons in the Support section */
+.support-button {
+	/* style */
+	background-color: black;
+	color: white;
+	border-style: none;
+
+	/* size */
+	width: 150px;
+	padding: 10px 10px;
+
+}
