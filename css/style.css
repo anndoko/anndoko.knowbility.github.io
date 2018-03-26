@@ -37,7 +37,18 @@ header, div, nav, form, {
 	text-align: center;
 }
 
-/* buttons in the Support section */
+/* Common */
+h1, h2, h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+	font-family: Verdana;
+	line-height: 24px;
+	text-align: justify;
+}
+
+/* Support */
 .support-button {
 	/* style */
 	background-color: black;
