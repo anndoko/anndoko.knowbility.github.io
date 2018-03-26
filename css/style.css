@@ -36,3 +36,44 @@ header, div, nav, form, {
 .alignCenter{
 	text-align: center;
 }
+
+/* Common */
+h1, h2, h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 32px;
+	margin: 30px;
+	/* bottom line */
+	border-bottom: solid 4px;
+	padding-bottom: 8px;
+	display:inline-block;
+}
+
+p {
+	font-family: Verdana;
+	line-height: 24px;
+	text-align: justify;
+}
+
+section {
+	margin: 70px auto;
+}
+
+/* Support */
+.support-button {
+	/* style */
+	background-color: black;
+	color: white;
+	border-style: none;
+
+	/* size */
+	width: 150px;
+	padding: 10px 10px;
+
+}

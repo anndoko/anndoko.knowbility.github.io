@@ -4,14 +4,14 @@
     <title>Fashionable Adoptions - Home</title>
     <meta charset="UTF-8">
     <!-- Style -->
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS -->
-    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">  
-    <link rel="stylesheet" type="text/css" href="css/high-contrast.css">  
-   
-  </head> 
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/high-contrast.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  </head>
   <body>
     <!-- Navigation -->
     <header role="banner">
@@ -70,10 +70,12 @@
     </header>
     <!-- Body -->
     <main id="main" tabindex="-1" role="main">
+      <!-- Title for the website (screen read only) -->
+      <h1 class="sr-only">Fashionable Adoption</h1>
+      
       <div class="homepageSection" id="HomeMain">
-        <h1 class="innerWrapper alignLeft">Fashionable Adoption</h1>
-        <!-- Section 0: Hero Image(s)-->
-        <section id="Heroimage" class="alignCenter">
+        <!-- Hero Image(s)-->
+        <div id="Heroimage" class="alignCenter">
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -112,7 +114,7 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-        </section>
+        </div>
         <!-- Section 1: Our Mission-->
         <section id="Mission" class="alignCenter">
           <h2>MISSION</h2>
@@ -154,19 +156,19 @@
                 <h3>Volunteer</h3>
                 <img src="img/volunteer.png"  alt="Volunteer">
                 <p>volunteer_text</p>
-                <button type="button" class="btn btn-primary">Act Now</button>
+                <button type="button" class="support-button">Act Now</button>
               </div>
               <div class="col-xs-12 col-sm-4">
                 <h3>Donate</h3>
                 <img src="img/volunteer.png"  alt="Donate">
                 <p>donate_text</p>
-                <button type="button" class="btn btn-primary">Donate</button>
+                <button type="button" class="support-button">Donate</button>
               </div>
               <div class="col-xs-12 col-sm-4">
                 <h3>Subscribe</h3>
                 <img src="img/volunteer.png"  alt="Subscribe">
                 <p>subscribe_text</p>
-                <button type="button" class="btn btn-primary">Subscribe</button>
+                <button type="button" class="support-button">Subscribe</button>
               </div>
             </div>
           </div>
@@ -220,10 +222,10 @@
     </footer>
 
     <!-- Jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- JAVASCRIPT -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/common.js"></script>    
+    <script src="js/common.js"></script>
 
 
   </body>
