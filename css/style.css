@@ -42,10 +42,27 @@ h1, h2, h3 {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 32px;
+	margin: 30px;
+	/* bottom line */
+	border-bottom: solid 4px;
+	padding-bottom: 8px;
+	display:inline-block;
+}
+
 p {
 	font-family: Verdana;
 	line-height: 24px;
 	text-align: justify;
+}
+
+section {
+	margin: 70px auto;
 }
 
 /* Support */
