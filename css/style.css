@@ -161,3 +161,11 @@ section {
 	width: 98%;
   	display: block;
 }
+
+figcaption {
+	text-align: center;
+	font-family: 'Roboto Condensed';
+	background-color: lightgrey;
+	width: 98%;
+  	display: block;
+}
