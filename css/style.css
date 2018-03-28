@@ -95,42 +95,34 @@ p {
 	text-align: justify;
 }
 
+
+section {
+	min-height: 600px;
+}
+
 .row {
 	text-align: center;
 }
 
 .support-item {
-	padding: 50px 10px;
+	padding: 30px 20px;
 	background-color:#D3D3D3;
-	min-height: 500px;
-	max-width: 350px;
+	min-height: 550px;
+	max-width: 340px;
 	margin: 10px;
 	display: inline-block;
 }
 
+.support-item p {
+	padding: 10px;
+}
+
+.support-item img {
+	margin: 20px auto 15px auto;
+}
+
 .sec-even {
 	background-color:#D3D3D3;
-}
-
-
-/* Support -- not sure how to leave margin and set the same height for each */
-.volunteer p{
-	text-align: center;
-	padding:7% 0;
-}
-
-.donate p{
-	text-align: center;
-	padding:7% 0;
-}
-
-.subscribe p{
-	text-align: center;
-}
-
-/*subscribe style */
-.subscribe form{
-	margin:4%;
 }
 
 .mc-field-group{
