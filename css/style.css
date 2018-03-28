@@ -1,5 +1,14 @@
+* {
+	margin: 0;
+}
+
 header, div, nav, form, {
 	display:block;
+}
+
+hr {
+	-webkit-margin-before: 0.5em;
+	-webkit-margin-after: 0.5em;
 }
 
 .innerWrapper{
@@ -37,26 +46,22 @@ header, div, nav, form, {
 
 .carousel-caption{ /*caption box*/
 	top: 50%;
-    bottom: auto;
-    background-color: rgba(211, 211, 211, 0.7);
-    height:20%;
-    text-align:center;
+  bottom: auto;
+  background-color: rgba(211, 211, 211, 0.7);
+  height:20%;
+  text-align:center;
 }
 
 .carousel-caption p{ /*caption box text*/
-    font-size:24px;
-    font-style: italic;
-    line-height:1.5;
-    color:#000000;
-    text-shadow:none;
-    box-sizing: border-box;
+  font-size:24px;
+  font-style: italic;
+  line-height:1.5;
+  color:#000000;
+  text-shadow:none;
+  box-sizing: border-box;
 	padding-left:10%;
 	padding-right:10%;
-
-
-
 }
-
 
 .search{
 	padding:10px 0;
@@ -90,14 +95,21 @@ p {
 	text-align: justify;
 }
 
-section {
-	margin: 70px auto;
+.row {
+	text-align: center;
 }
 
-.volunteer, .donate, .subscribe{
+.support-item {
+	padding: 50px 10px;
 	background-color:#D3D3D3;
-	padding:2%;
+	min-height: 500px;
+	max-width: 350px;
+	margin: 10px;
+	display: inline-block;
+}
 
+.sec-even {
+	background-color:#D3D3D3;
 }
 
 
@@ -119,7 +131,6 @@ section {
 /*subscribe style */
 .subscribe form{
 	margin:4%;
-
 }
 
 .mc-field-group{
@@ -141,7 +152,6 @@ section {
 	/* size */
 	width: 150px;
 	padding: 10px 10px;
-
 }
 
 /* Models */
