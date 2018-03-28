@@ -77,3 +77,21 @@ section {
 	padding: 10px 10px;
 
 }
+
+/* Models */
+
+.title h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 32px;
+	padding-bottom: 8px;
+	text-align: center;
+}
+
+.photo-cell{
+	margin-bottom: 2%;
+	margin-left: 2%;
+}
+.photo-cell img {
+	width: 98%;
+  	display: block;
+}
