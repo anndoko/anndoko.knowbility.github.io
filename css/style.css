@@ -23,7 +23,7 @@ header, div, nav, form, {
 	min-height:30px;
 	position:inherit;
 	margin-bottom:0;
-	
+
 }
 
 .navbar-inverse {
@@ -54,7 +54,7 @@ header, div, nav, form, {
 	padding-right:10%;
 
 
-	
+
 }
 
 
@@ -97,29 +97,29 @@ section {
 .volunteer, .donate, .subscribe{
 	background-color:#D3D3D3;
 	padding:2%;
-	
+
 }
 
 
 /* Support -- not sure how to leave margin and set the same height for each */
 .volunteer p{
-	text-align: center;	
+	text-align: center;
 	padding:7% 0;
 }
 
 .donate p{
-	text-align: center;	
+	text-align: center;
 	padding:7% 0;
 }
 
 .subscribe p{
-	text-align: center;		
+	text-align: center;
 }
 
 /*subscribe style */
 .subscribe form{
 	margin:4%;
-	
+
 }
 
 .mc-field-group{
@@ -144,14 +144,20 @@ section {
 
 }
 
+/* Models */
 
+.title h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 32px;
+	padding-bottom: 8px;
+	text-align: center;
+}
 
-
-
-
-
-
-
-
-
-
+.photo-cell{
+	margin-bottom: 2%;
+	margin-left: 2%;
+}
+.photo-cell img {
+	width: 98%;
+  	display: block;
+}
