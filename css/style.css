@@ -82,7 +82,7 @@ h1 {
 
 h2 {
 	font-size: 32px;
-	margin: 30px;
+	margin: 50px;
 	/* bottom line */
 	border-bottom: solid 4px;
 	padding-bottom: 8px;
@@ -97,7 +97,8 @@ p {
 
 
 section {
-	min-height: 600px;
+	min-height: 500px;
+	padding: 50px auto;
 }
 
 .row {
