@@ -1,5 +1,14 @@
+* {
+	margin: 0;
+}
+
 header, div, nav, form, {
 	display:block;
+}
+
+hr {
+	-webkit-margin-before: 0.5em;
+	-webkit-margin-after: 0.5em;
 }
 
 .innerWrapper{
@@ -19,11 +28,11 @@ header, div, nav, form, {
   overflow: auto;
 }
 
+/* NAV */
 .navbar{
-	min-height:30px;
+	min-height:100px;
 	position:inherit;
 	margin-bottom:0;
-
 }
 
 .navbar-inverse {
@@ -37,26 +46,22 @@ header, div, nav, form, {
 
 .carousel-caption{ /*caption box*/
 	top: 50%;
-    bottom: auto;
-    background-color: rgba(211, 211, 211, 0.7);
-    height:20%;
-    text-align:center;
+  bottom: auto;
+  background-color: rgba(211, 211, 211, 0.7);
+  height:20%;
+  text-align:center;
 }
 
 .carousel-caption p{ /*caption box text*/
-    font-size:24px;
-    font-style: italic;
-    line-height:1.5;
-    color:#000000;
-    text-shadow:none;
-    box-sizing: border-box;
+  font-size:24px;
+  font-style: italic;
+  line-height:1.5;
+  color:#000000;
+  text-shadow:none;
+  box-sizing: border-box;
 	padding-left:10%;
 	padding-right:10%;
-
-
-
 }
-
 
 .search{
 	padding:10px 0;
@@ -64,6 +69,15 @@ header, div, nav, form, {
 
 .alignCenter{
 	text-align: center;
+}
+
+/* Footer */
+.footer{
+  text-align: center;
+  min-height: 100px;
+  background-color: #221E1F;
+	color: white;
+  padding: 15px 0;
 }
 
 /* Common */
@@ -77,7 +91,7 @@ h1 {
 
 h2 {
 	font-size: 32px;
-	margin: 30px;
+	margin: 40px;
 	/* bottom line */
 	border-bottom: solid 4px;
 	padding-bottom: 8px;
@@ -90,36 +104,36 @@ p {
 	text-align: justify;
 }
 
+
 section {
-	margin: 70px auto;
+	min-height: 500px;
+	padding: 50px auto;
+	margin: 60px auto;
 }
 
-.volunteer, .donate, .subscribe{
+.row {
+	text-align: center;
+}
+
+.support-item {
+	padding: 30px 20px;
 	background-color:#D3D3D3;
-	padding:2%;
-
+	min-height: 550px;
+	max-width: 340px;
+	margin: 10px;
+	display: inline-block;
 }
 
-
-/* Support -- not sure how to leave margin and set the same height for each */
-.volunteer p{
-	text-align: center;
-	padding:7% 0;
+.support-item p {
+	padding: 10px;
 }
 
-.donate p{
-	text-align: center;
-	padding:7% 0;
+.support-item img {
+	margin: 20px auto 15px auto;
 }
 
-.subscribe p{
-	text-align: center;
-}
-
-/*subscribe style */
-.subscribe form{
-	margin:4%;
-
+.sec-even {
+	background-color:#D3D3D3;
 }
 
 .mc-field-group{
@@ -141,7 +155,6 @@ section {
 	/* size */
 	width: 150px;
 	padding: 10px 10px;
-
 }
 
 /* Models */
