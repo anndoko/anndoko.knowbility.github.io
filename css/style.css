@@ -23,11 +23,40 @@ header, div, nav, form, {
 	min-height:30px;
 	position:inherit;
 	margin-bottom:0;
+
 }
 
 .navbar-inverse {
-	background-color:#000000;
+	background-color:#221E1F;
 }
+
+.carousel-inner {
+	height: 650px;
+
+}
+
+.carousel-caption{ /*caption box*/
+	top: 50%;
+    bottom: auto;
+    background-color: rgba(211, 211, 211, 0.7);
+    height:20%;
+    text-align:center;
+}
+
+.carousel-caption p{ /*caption box text*/
+    font-size:24px;
+    font-style: italic;
+    line-height:1.5;
+    color:#000000;
+    text-shadow:none;
+    box-sizing: border-box;
+	padding-left:10%;
+	padding-right:10%;
+
+
+
+}
+
 
 .search{
 	padding:10px 0;
@@ -38,7 +67,7 @@ header, div, nav, form, {
 }
 
 /* Common */
-h1, h2, h3 {
+h1, h2, h3{
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -65,7 +94,44 @@ section {
 	margin: 70px auto;
 }
 
-/* Support */
+.volunteer, .donate, .subscribe{
+	background-color:#D3D3D3;
+	padding:2%;
+
+}
+
+
+/* Support -- not sure how to leave margin and set the same height for each */
+.volunteer p{
+	text-align: center;
+	padding:7% 0;
+}
+
+.donate p{
+	text-align: center;
+	padding:7% 0;
+}
+
+.subscribe p{
+	text-align: center;
+}
+
+/*subscribe style */
+.subscribe form{
+	margin:4%;
+
+}
+
+.mc-field-group{
+	margin:2%;
+}
+
+.clear {
+	margin-top:5%;
+}
+
+
+
 .support-button {
 	/* style */
 	background-color: black;
