@@ -74,8 +74,9 @@ hr {
 /* Footer */
 .footer{
   text-align: center;
-  min-height: 200px;
+  min-height: 100px;
   background-color: #221E1F;
+	color: white;
   padding: 15px 0;
 }
 
