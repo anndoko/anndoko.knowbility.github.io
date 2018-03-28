@@ -28,11 +28,11 @@ hr {
   overflow: auto;
 }
 
+/* NAV */
 .navbar{
-	min-height:30px;
+	min-height:100px;
 	position:inherit;
 	margin-bottom:0;
-
 }
 
 .navbar-inverse {
@@ -71,6 +71,14 @@ hr {
 	text-align: center;
 }
 
+/* Footer */
+.footer{
+  text-align: center;
+  min-height: 200px;
+  background-color: #221E1F;
+  padding: 15px 0;
+}
+
 /* Common */
 h1, h2, h3{
 	font-family: 'Roboto Condensed', sans-serif;
@@ -82,7 +90,7 @@ h1 {
 
 h2 {
 	font-size: 32px;
-	margin: 50px;
+	margin: 40px;
 	/* bottom line */
 	border-bottom: solid 4px;
 	padding-bottom: 8px;
@@ -99,6 +107,7 @@ p {
 section {
 	min-height: 500px;
 	padding: 50px auto;
+	margin: 60px auto;
 }
 
 .row {
