@@ -33,6 +33,21 @@ hr {
 	min-height:100px;
 	position:inherit;
 	margin-bottom:0;
+
+}
+
+
+/*navbar align center */
+.navbar .navbar-nav{
+	display: inline-block;
+	float:none;
+}
+
+/*hover effect -- not successful */
+.navbar .navbar-nav > .active:hover {
+
+	text-decoration: underline;
+	border-color:white;
 }
 
 .navbar-inverse {
