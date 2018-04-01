@@ -113,6 +113,17 @@ section {
 
 .row {
 	text-align: center;
+	margin:0;
+}
+
+
+#Support .row{
+display:table;
+width:auto;
+margin-left:auto;
+margin-right:auto;
+
+
 }
 
 .support-item {
@@ -155,6 +166,11 @@ section {
 	/* size */
 	width: 150px;
 	padding: 10px 10px;
+}
+
+.support-button a{
+	color: white;
+	text-decoration: none;
 }
 
 /* Models */
