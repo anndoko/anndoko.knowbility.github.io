@@ -16,58 +16,71 @@
     <!-- Navigation -->
     <header role="banner">
       <!-- * Upper Part: Accessibility * -->
-      <div class="upper_header row">
-        <!-- Skip -->
-        <div class="col-xs-6 col-sm-3">
-          <div class="row  pull-left">
-            <a href="#main">Skip to main content</a>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-9">
-          <div class="row  pull-right">
-            <!-- Enable high contrast -->
-            <input type="checkbox" id="highContrastEnable" name="highContrastEnable">
-            <label for="highContrastEnable">High Contrast</label>
-            <!-- Adjust font size -->
-            <button type="button" class="small-font">A&#8722;
-              <span class="sr-only">Decrease Text Size</span>
-            </button>
-            <button type="button" class="normal-font">A
-              <span class="sr-only">Default Text Size</span>
-            </button>
-            <button type="button" class="big-font">A+
-              <span class="sr-only">Increase Text Size</span>
-            </button>
+      <div class="upper_header">
+        <div class="container-fluid">
+          <div class="row">
+            <!-- Skip -->
+            <div class="col-xs-6 col-sm-3">
+              <div class="row  pull-left">
+                <a href="#main">Skip to main content</a>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-9">
+              <div class="row  pull-right">
+                <!-- Enable high contrast -->
+                <input type="checkbox" id="highContrastEnable" name="highContrastEnable">
+                <label for="highContrastEnable">High Contrast</label>
+                <!-- Adjust font size -->
+                <button type="button" class="small-font">A&#8722;
+                  <span class="sr-only">Decrease Text Size</span>
+                </button>
+                <button type="button" class="normal-font">A
+                  <span class="sr-only">Default Text Size</span>
+                </button>
+                <button type="button" class="big-font">A+
+                  <span class="sr-only">Increase Text Size</span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <!-- * Lower Part: Logo & Search Panel * -->
       <!-- Search -->
       <div class="search">
-        <div class="row">
-          <form role="search" id="webSearch" class="pull-right" action="./Search.html" method="get">
-            <label for="searchField" class="searchLabel">Website Search</label>
-            <input type="text" id="searchFideld" class"" name="searchField">
-            <button id="searchSubmit" value="Search" class="btn">Search</button>
-          </form>
+        <div class="container-fluid">
+          <div class="row">
+            <form role="search" id="webSearch" class="pull-right" action="./Search.html" method="get">
+              <label for="searchField" class="searchLabel">Website Search</label>
+              <input type="text" id="searchFideld" class"" name="searchField">
+              <button id="searchSubmit" value="Search" class="btn">Search</button>
+            </form>
+          </div>
         </div>
       </div>
       <!-- Navbar -->
       <nav class="navbar navbar-inverse innerWrapper" role="navigation" aria-label="Primary">
-        <!-- FA logo -->
-        <div class="logo">
-          <a href="#" class="imgLink"><img src="img/FA_logo.jpg" width="200" height="100" alt="Fashionable Adoptions homepage" class="center-block img-responsive"></a>
-        </div>
-        <!-- Nav options -->
         <div class="container-fluid">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li class="menuitem"><a href="service.html">Community Servic</a></li>
-            <li class="menuitem"><a href="model.html">Meet Our Models</a></li>
-          </ul>
+          <div class="row">
+            <!-- FA logo -->
+            <div class="logo">
+              <a href="#" class="imgLink"><img src="img/FA_logo.jpg" width="200" height="100" alt="Fashionable Adoptions homepage" class="center-block img-responsive"></a>
+            </div>
+            <!-- Nav options -->
+
+              <ul class="nav navbar-nav">
+                <li class="menuitem"><a href="index.html">Home</a></li>
+                <li class="active"><a href="#">Community Service</a></li>
+                <li class="menuitem"><a href="model.html">Meet Our Models</a></li>
+              </ul>
+          </class>
         </div>
+        </class>
       </nav>
     </header>
+
+
+
     <!-- Body -->
     <main id="main" tabindex="-1" role="main">
       <!-- Title for the website (screen read only) -->
