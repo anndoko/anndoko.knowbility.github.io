@@ -44,7 +44,7 @@
 	.photo-pup1, .photo-pup5,.photo-pup8, .photo-pup10 {
 		grid-column: 1 / 3;
   	}
-    
+
   .photo-pup2, .photo-pup4, .photo-pup7, .photo-pup9 {
   		grid-column: 3 / 5;
   	}
