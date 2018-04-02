@@ -21,71 +21,146 @@
   </head>
   <body>
     <!-- Navigation -->
-    <header>
-      <nav class="navbar navbar-inverse innerWrapper" role="navigation" aria-label="Primary">
-        <!-- FA logo -->
-        <div class="logo">
-          <a href="#" class="imgLink"><img src="img/FA_logo.jpg" width="200" height="100" alt="Fashionable Adoptions homepage" class="center-block img-responsive"></a>
-        </div>
-        <!-- Nav options -->
+    <header role="banner">
+      <!-- * Upper Part: Accessibility * -->
+      <div class="upper_header">
         <div class="container-fluid">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li class="menuitem"><a href="service.html">Community Service</a></li>
-            <li class="menuitem"><a href="model.html">Meet Our Models</a></li>
-          </ul>
+          <div class="row">
+            <!-- Skip -->
+            <div class="col-xs-6 col-sm-3">
+              <div class="row  pull-left">
+                <a href="#main">Skip to main content</a>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-9">
+              <div class="row  pull-right">
+                <!-- Enable high contrast -->
+                <input type="checkbox" id="highContrastEnable" name="highContrastEnable">
+                <label for="highContrastEnable">High Contrast</label>
+                <!-- Adjust font size -->
+                <button type="button" class="small-font">A&#8722;
+                  <span class="sr-only">Decrease Text Size</span>
+                </button>
+                <button type="button" class="normal-font">A
+                  <span class="sr-only">Default Text Size</span>
+                </button>
+                <button type="button" class="big-font">A+
+                  <span class="sr-only">Increase Text Size</span>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <!-- * Lower Part: Logo & Search Panel * -->
+      <!-- Search -->
+      <div class="search">
+        <div class="container-fluid">
+          <div class="row">
+            <form role="search" id="webSearch" class="pull-right" action="./Search.html" method="get">
+              <label for="searchField" class="searchLabel">Website Search</label>
+              <input type="text" id="searchFideld" class"" name="searchField">
+              <button id="searchSubmit" value="Search" class="btn">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Navbar -->
+      <nav class="navbar navbar-inverse innerWrapper" role="navigation" aria-label="Primary">
+        <div class="container-fluid">
+          <div class="row">
+            <!-- FA logo -->
+            <div class="logo">
+              <a href="#" class="imgLink"><img src="img/FA_logo.jpg" width="200" height="100" alt="Fashionable Adoptions homepage" class="center-block img-responsive"></a>
+            </div>
+            <!-- Nav options -->
+
+              <ul class="nav navbar-nav">
+                <li class="menuitem"><a href="index.html">Home</a></li>
+                <li class="menuitem"><a href="community.html">Community Service</a></li>
+                <li class="active"><a href="#">Meet Our Models</a></li>
+              </ul>
+          </class>
+        </div>
+        </class>
       </nav>
     </header>
 
     <!-- Body -->
-    <div id = "main-content-models" class = "main-content alignCenter">
-      <!-- Heading -->
-      <div class = "title">
-        <iframe class = "vid" width="560" height="315" src="https://www.youtube.com/embed/6j7oQletFbc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <p class = "statement">An adopted pet is forever grateful and will love you beyond your knowledge</p>
-      </div>
-        <h1 class = "models alignCenter">OUR MODELS</h1>
+    <main>
+      <h1 class="sr-only">Fashionable Adoption</h1>
+      <div id = "main-content-models" class = "main-content alignCenter">
+        <!-- Title: Video -->
+        <div class = "title">
+          <iframe class = "vid" width="560" height="315" src="https://www.youtube.com/embed/6j7oQletFbc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <p class = "statement">An adopted pet is forever grateful and will love you beyond your knowledge</p>
+        </div>
+
         <!-- Images -->
+        <h2 class = "models alignCenter">OUR MODELS</h2>
         <section class = "dogs">
           <div class = "container-fluid">
-          <div class = "row doggies">
-            <div class = "photo-cell photo-pup1 col-xs-12 col-sm-6 col-md-3">
-              <img class = "resp-img" src = "img/dog_model_no_background/Pup_001.png" alt = "light brown and white brown-eyed small dog">
+            <div class = "row doggies">
+              <!-- dog image * 4 in a row -->
+              <div class = "photo-cell photo-pup1 col-xs-12 col-sm-6 col-md-3">
+                <img class = "resp-img" src = "img/dog_model_no_background/Pup_001.png" alt = "light brown and white brown-eyed small dog">
+              </div>
+              <div class = "photo-cell photo-pup2 col-xs-12 col-sm-6 col-md-3">
+                <img class = "resp-img" src = "img/dog_model_no_background/Pup_002.png" alt = "orange and white brown-eyed small dog">
+              </div>
+              <div class = "photo-cell photo-pup3 col-xs-12 col-sm-6 col-md-3">
+                <img class = "portrait1" src = "img/dog_model_no_background/Pup_003.png" alt = "light brown and white brown-eyed small dog with pointy ears">
+              </div>
+              <div class = "photo-cell photo-pup6 col-xs-12 col-sm-6 col-md-3">
+                <img class = "portrait2" src = "img/dog_model_no_background/Pup_006.png" alt = "yellow brown-eyed small fluffy terrier dog">
+              </div>
             </div>
-            <div class = "photo-cell photo-pup2 col-xs-12 col-sm-6 col-md-3">
-              <img class = "resp-img" src = "img/dog_model_no_background/Pup_002.png" alt = "orange and white brown-eyed small dog">
+            <div class = "row doggies">
+              <!-- dog image * 4 in a row -->
+              <div class = "photo-cell photo-pup4 col-xs-12 col-sm-6 col-md-3">
+                <img class = "resp-img" src = "img/dog_model_no_background/Pup_004.png" alt = "yellow brown-eyed large lab dog with tongue sticking out">
+              </div>
+              <div class = "photo-cell photo-pup5 col-xs-12 col-sm-6 col-md-3">
+                <img class = "resp-img" src = "img/dog_model_no_background/Pup_005.png" alt = "small white dark brown-eyed dog">
+              </div>
+              <div class = "photo-cell photo-pup7 col-xs-12 col-sm-6 col-md-3">
+                <img class = "resp-img" src = "img/dog_model_no_background/Pup_007.png" alt = "yellow light brown-eyed large dog">
+              </div>
+              <div class = "photo-cell photo-pup10 col-xs-12 col-sm-6 col-md-3">
+                <img class = "resp-img" src = "img/dog_model_no_background/Pup_010.png" alt = "black and white brown-eyed medium dog with pointy ears">
+              </div>
             </div>
-            <div class = "photo-cell photo-pup3 col-xs-12 col-sm-6 col-md-3">
-              <img class = "portrait1" src = "img/dog_model_no_background/Pup_003.png" alt = "light brown and white brown-eyed small dog with pointy ears">
-            </div>
-            <div class = "photo-cell photo-pup6 col-xs-12 col-sm-6 col-md-3">
-              <img class = "portrait2" src = "img/dog_model_no_background/Pup_006.png" alt = "yellow brown-eyed small fluffy terrier dog">
-            </div>
-          </div>
-          <div class = "row doggies">
-            <div class = "photo-cell photo-pup4 col-xs-12 col-sm-6 col-md-3">
-              <img class = "resp-img" src = "img/dog_model_no_background/Pup_004.png" alt = "yellow brown-eyed large lab dog with tongue sticking out">
-            </div>
-            <div class = "photo-cell photo-pup5 col-xs-12 col-sm-6 col-md-3">
-              <img class = "resp-img" src = "img/dog_model_no_background/Pup_005.png" alt = "small white dark brown-eyed dog">
-            </div>
-            <div class = "photo-cell photo-pup7 col-xs-12 col-sm-6 col-md-3">
-              <img class = "resp-img" src = "img/dog_model_no_background/Pup_007.png" alt = "yellow light brown-eyed large dog">
-            </div>
-           <!--  <div class = "photo-cell photo-pup8 col-xs-12 col-sm-6 col-md-3">
-              <img class = "resp-img" src = "img/dog_model_no_background/Pup_008.png" alt = "yellow brown-eyed small scruffy dog">
-            </div>
-            <div class = "photo-cell photo-pup9 col-xs-12 col-sm-6 col-md-3">
-              <img class = "resp-img" src = "img/dog_model_no_background/Pup_009.png" alt = "dark brown and white brown-eyed small scruffy dog">
-            </div> -->
-            <div class = "photo-cell photo-pup10 col-xs-12 col-sm-6 col-md-3">
-              <img class = "resp-img" src = "img/dog_model_no_background/Pup_010.png" alt = "black and white brown-eyed medium dog with pointy ears">
-            </div>
-          </div>
           </div>
         </section>
       </div>
-      </section>
+    </main>
+
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <a class="imgLink"  target="_blank" href="http://knowbility.org/" id="Knowablility_logo">
+                <img src="img/Knowablility_logo.png" alt="knowbility - External website opens in new tab" >
+              </a>
+            </div>
+            <div class="col-sm-6">
+              <p>
+                Fashionable Adoptions 2018 All Rights Reserved
+              </p>
+              <p>
+                Last Update: Apr 2, 2018
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Jquery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <!-- JAVASCRIPT -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="js/common.js"></script>
   </body>
 </html>
