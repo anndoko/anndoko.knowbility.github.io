@@ -197,6 +197,11 @@ margin-right:auto;
 	padding-bottom: 8px;
 	display: inline-block;
 	text-align: center;
+	margin-top: 1.5em; 
+}
+
+.video h1 {
+	margin-top: .5em;
 }
 
 .photo-cell {
@@ -206,29 +211,17 @@ margin-right:auto;
 .photo-cell img {
 	width: 98%;
   	display: block;
-  	padding-bottom: 3em;
+  	border-radius: 50%;
+  	padding: 2em;
  }
 
 .dogs {
 	background-color: #D3D3D3;
 }
 
-.portrait1, .portrait2 {
-	padding: 3em;
-}
-
 .statement {
 	text-align: center;
-	padding: 2em;
-	padding-top: 3em;
-}
-
-.photo-pup1, .photo-pup2 {
-	padding-top: 3em;
-}
-
-.photo-pup4 {
-	padding-bottom: 4em;
+	padding: 1.5em;
 }
 
 .vid {
