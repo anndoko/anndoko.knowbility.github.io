@@ -247,9 +247,24 @@ section {
 }
 
 .construction-page p {
-	margin: auto 20%;
+	margin: auto 20% 20px 20%;
 	text-align: center;
 	color: white;
+}
+
+.back-button {
+  padding: 10px 40px;
+
+	/* style */
+	background-color: white;
+	color: black;
+	border: 1px solid grey;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: none;
+	color: grey;
 }
 
 /*figcaption {
