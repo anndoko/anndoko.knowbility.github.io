@@ -33,7 +33,6 @@ hr {
 	min-height:100px;
 	position:inherit;
 	margin-bottom:0;
-
 }
 
 
@@ -133,12 +132,10 @@ section {
 
 
 #Support .row{
-display:table;
-width:auto;
-margin-left:auto;
-margin-right:auto;
-
-
+	display:table;
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .support-item {
@@ -197,7 +194,7 @@ margin-right:auto;
 	padding-bottom: 8px;
 	display: inline-block;
 	text-align: center;
-	margin-top: 1.5em; 
+	margin-top: 1.5em;
 }
 
 .video h1 {
@@ -210,9 +207,9 @@ margin-right:auto;
 }
 .photo-cell img {
 	width: 98%;
-  	display: block;
-  	border-radius: 50%;
-  	padding: 2em;
+	display: block;
+	border-radius: 50%;
+	padding: 2em;
  }
 
 .dogs {
@@ -228,6 +225,46 @@ margin-right:auto;
 	display: block;
 	margin: auto;
 	margin-top: 5em;
+}
+
+/* Under Construction Page */
+.construction-page {
+	background-color:#221E1F;
+	height: 600px;
+	text-align: center;
+}
+
+.fa-logo {
+	background-color: white;
+	padding:30px;
+	margin: 5%;
+	width: 200px;
+}
+
+.construction-page h1 {
+	color: white;
+	margin-bottom: 10px;
+}
+
+.construction-page p {
+	margin: auto 20% 20px 20%;
+	text-align: center;
+	color: white;
+}
+
+.back-button {
+  padding: 10px 40px;
+
+	/* style */
+	background-color: white;
+	color: black;
+	border: 1px solid grey;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: none;
+	color: grey;
 }
 
 /*figcaption {
