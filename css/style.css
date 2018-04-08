@@ -30,7 +30,6 @@ hr {
 
 /* NAV */
 .navbar{
-	min-height:100px;
 	position:inherit;
 	margin-bottom:0;
 }
@@ -44,26 +43,32 @@ hr {
 
 /*hover effect -- not successful */
 .navbar .navbar-nav > .active:hover {
-
 	text-decoration: underline;
-	border-color:white;
+	border-color: white;
 }
 
 .navbar-inverse {
-	background-color:#221E1F;
+	background-color: #221E1F;
 }
 
 .carousel-inner {
 	height: 650px;
+}
 
+
+.heroimage{
+	 position: relative;
 }
 
 .carousel-caption{ /*caption box*/
-	top: 50%;
-  bottom: auto;
+  position: absolute;
+  top: 50%;
+  left: 25%;
   background-color: rgba(211, 211, 211, 0.7);
+  width:50%;
   height:20%;
   text-align:center;
+
 }
 
 .carousel-caption p{ /*caption box text*/
@@ -76,6 +81,21 @@ hr {
 	padding-left:10%;
 	padding-right:10%;
 }
+
+
+
+/*responsive*/
+
+@media only screen and (max-width: 980px) {
+
+.carousel-caption{
+	display: none;
+	}
+}
+
+
+
+
 
 .search{
 	padding:10px 0;
@@ -92,6 +112,28 @@ hr {
   background-color: #221E1F;
 	color: white;
   padding: 15px 0;
+}
+
+.social-media {
+	min-height: 100px;
+}
+
+.sm-icon {
+  list-style: none;
+  display: inline-block;
+  padding: 25px;
+}
+
+footer a {
+  text-decoration: none;
+  background-color: none;
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: none;
+  background-color: none;
+  color: white;
 }
 
 /* Common */
@@ -175,13 +217,30 @@ section {
 
 	/* size */
 	width: 150px;
-	padding: 10px 10px;
+    padding: 10px 10px;
+
+	/* position */
+	position: relative;
+	margin-top:50px;
+	margin-left: auto;
+	margin-right:auto;
 }
 
 .support-button a{
 	color: white;
 	text-decoration: none;
 }
+
+
+.volunteer .support-button {
+	/* position */
+	position: relative;
+	margin-top: 74px;
+
+}
+
+
+
 
 /* Models */
 
@@ -241,6 +300,10 @@ section {
 	margin-top: 5em;
 }
 
+.sm-icon:focus {
+	outline: 2px solid white;
+}
+
 /* Community Service Page */
 
 .partner-logos img {
@@ -251,6 +314,13 @@ section {
 .main-image img {
 	max-width: 100%;
 }
+
+/* Sitemap Page */
+.sitemap {
+	margin: 25px auto;
+	padding: 20px;
+}
+
 
 /* Under Construction Page */
 .construction-page {
