@@ -114,6 +114,10 @@ hr {
   padding: 15px 0;
 }
 
+.email {
+	text-decoration: underline;
+}
+
 .social-media {
 	min-height: 100px;
 }
