@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meet Our Models</title>
+    <meta charset="UTF-8">
+    <!-- Style -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/high-contrast.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <!-- Font Awesome -->
+   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- JAVASCRIPT -->
+    <script src="js/common.js"></script>
+    <script src="js/carousel.js"></script>
+  </head>
+  <body>
+
+    <!-- Navigation -->
+    <header role="banner">
+      <!-- * Upper Part: Accessibility * -->
+      <div class="upper_header">
+        <div class="container-fluid">
+          <div class="row">
+            <!-- Skip -->
+            <div class="col-xs-6 col-sm-3">
+              <div class="row  pull-left">
+                <a href="#main">Skip to main content</a>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-9">
+              <div class="row  pull-right">
+                <!-- Enable high contrast -->
+                <input type="checkbox" id="highContrastEnable" name="highContrastEnable">
+                <label for="highContrastEnable">High Contrast</label>
+                <!-- Adjust font size -->
+                <button type="button" class="small-font">A&#8722;
+                  <span class="sr-only">Decrease Text Size</span>
+                </button>
+                <button type="button" class="normal-font">A
+                  <span class="sr-only">Default Text Size</span>
+                </button>
+                <button type="button" class="big-font">A+
+                  <span class="sr-only">Increase Text Size</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- * Lower Part: Logo & Search Panel * -->
+      <!-- Search -->
+      <div class="search">
+        <div class="container-fluid">
+          <div class="row">
+            <form role="search" id="webSearch" class="pull-right" action="./Search.html" method="get">
+              <label for="searchField" class="searchLabel">Website Search</label>
+              <input type="text" id="searchField" name="searchField">
+              <button id="searchSubmit" value="Search" class="btn">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- FA logo -->
+      <div class="logo navbar-inverse">
+        <a href="#" class="imgLink"><img src="img/FA_logo.jpg" width="200" height="100" alt="Fashionable Adoptions homepage" class="center-block img-responsive"></a>
+      </div>
+      <!-- Navbar -->
+      <nav class="navbar navbar-inverse" role="navigation" aria-label="Primary">
+        <div class="container-fluid">
+          <div class="row">
+            <!-- Nav options -->
+            <ul class="nav navbar-nav">
+              <li class="menuitem"><a href="index.html">Home</a></li>
+              <li class="menuitem"><a href="community.html">Community Service</a></li>
+              <li class="menuitem"><a href="model.html">Meet Our Models</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="sitemap">
+      <h1>Sitemap</h1>
+      <ul>
+        <li><a href="index.html" tabindex="1">Home</a></li>
+          <ul>
+            <li><a href="info.html" tabindex="2">Volunteer</a></li>
+            <li><a href="info.html" tabindex="3">Donate</a></li>
+            <li><a href="info.html" tabindex="4">Subscribe</a></li>
+          </ul>
+        <li><a href="community.html" tabindex="5">Community Service</a></li>
+          <ul>
+            <li><a href="info.html" tabindex="6">Volunteer</a></li>
+            <li><a href="info.html" tabindex="7">Donate</a></li>
+            <li><a href="info.html" tabindex="8">Subscribe</a></li>
+          </ul>
+        <li><a href="model.html" tabindex="9">Meet Our Models</a></li>
+          <ul>
+            <li><a href="info.html" tabindex="10">Volunteer</a></li>
+            <li><a href="info.html" tabindex="11">Donate</a></li>
+            <li><a href="info.html" tabindex="12">Subscribe</a></li>
+          </ul>
+        <li><a href="https://www.facebook.com/fashionableadoptions" tabindex="13">Fashionable Adoptions Facebook Page</a></li>
+        <li><a href="https://www.instagram.com/fashionableadoptions/" tabindex="14">Fashionable Adoptions Instagram</a></li>
+      </ul>
+      <br/>
+      <!-- Back to FA -->
+      <a href="index.html" class="back-button">
+        <span>Back</span>
+        <span class="sr-only">Go Back to Fashionable Adoptions' Homepage</span>
+      </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row social-media">
+
+          <a class="sm-icon" href="sitemap.html">
+            <span class="sr-only">Website Sitemap</span>
+            <i class="fas fa-map fa-2x"></i>
+          </a>
+          <a class="sm-icon" href="https://www.facebook.com/fashionableadoptions" target="_blank">
+            <span class="sr-only">Fashionable Adoptions Facebook Page</span>
+            <span class="sr-only">Open in a new tab</span>
+            <i class="fab fa-facebook-f fa-2x"></i>
+          </a>
+          <a class="sm-icon" href="https://www.instagram.com/fashionableadoptions/" target="_blank">
+            <span class="sr-only">Fashionable Adoptions Instagram Page</span>
+            <span class="sr-only">Open in a new tab</span>
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <a class="imgLink"  target="_blank" href="http://knowbility.org/" id="Knowablility_logo">
+              <img src="img/Knowablility_logo.png" alt="knowbility - External website opens in new tab" >
+            </a>
+          </div>
+          <div class="col-sm-6">
+            <p>
+              Fashionable Adoptions 2018 All Rights Reserved
+            </p>
+            <p>
+              Last Update: April 8, 2018
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- JAVASCRIPT -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+  </body>
+</html>

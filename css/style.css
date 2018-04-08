@@ -307,6 +307,13 @@ section {
 	max-width: 100%;
 }
 
+/* Sitemap Page */
+.sitemap {
+	margin: 25px auto;
+	padding: 20px;
+}
+
+
 /* Under Construction Page */
 .construction-page {
 	background-color:#221E1F;
