@@ -114,6 +114,28 @@ hr {
   padding: 15px 0;
 }
 
+.social-media {
+	min-height: 100px;
+}
+
+.sm-icon {
+  list-style: none;
+  display: inline-block;
+  padding: 25px;
+}
+
+footer a {
+  text-decoration: none;
+  background-color: none;
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: none;
+  background-color: none;
+  color: white;
+}
+
 /* Common */
 h1, h2, h3{
 	font-family: 'Roboto Condensed', sans-serif;
