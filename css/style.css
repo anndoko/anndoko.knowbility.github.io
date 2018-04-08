@@ -226,14 +226,11 @@ section {
 	margin: auto;
 	margin-top: 5em;
 }
-<<<<<<< HEAD
 
 /* Community Service Page */
 .partner-logos img {
 	width: 100%;
 }
-||||||| merged common ancestors
-=======
 
 /* Under Construction Page */
 .construction-page {
@@ -274,17 +271,3 @@ a:hover {
   background-color: none;
 	color: grey;
 }
-
-/*figcaption {
-	font-size: 20px;
-	padding: 1em;
-	text-align: center;
-	font-family: 'Roboto Condensed';
-	background-color: lightgrey;
-	width: 98%;
-  	display: block;
-  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  	border-bottom-right-radius: 25px;
-  	border-bottom-left-radius: 25px;
-}*/
->>>>>>> master
