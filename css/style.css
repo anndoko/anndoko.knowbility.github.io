@@ -209,8 +209,6 @@ section {
 	margin-top:5%;
 }
 
-
-
 .support-button {
 	/* style */
 	background-color: black;
@@ -307,7 +305,13 @@ section {
 }
 
 /* Community Service Page */
+
 .partner-logos img {
+	max-width: 100%;
+	/* align-items: center; */
+}
+
+.main-image img {
 	max-width: 100%;
 }
 
