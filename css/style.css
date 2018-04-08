@@ -245,7 +245,7 @@ section {
 
 /* Community Service Page */
 .partner-logos img {
-	width: 100%;
+	max-width: 100%;
 }
 
 /* Under Construction Page */
