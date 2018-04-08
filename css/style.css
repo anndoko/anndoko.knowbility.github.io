@@ -252,11 +252,27 @@ section {
 	color: black;
 }
 
+.small-font:focus, .normal-font:focus, .big-font:focus {
+	outline: 1px solid red;
+}
+
 #searchSubmit:focus {
 	outline: 1px solid red;
 }
 
-#highContrastEnable:focus, #Knowablility_logo:focus, #logo_image:focus, .menu-items:focus .active:focus .vid:focus {
+.menuitem:focus .active:focus .vid:focus {
+	outline: 2px solid white;
+}
+
+.imgLink img:focus {
+	outline: 2px solid blue;
+}
+
+.navbar-inverse:focus {
+	outline: 2px solid white;
+}
+
+#highContrastEnable:focus, #Knowablility_logo:focus {
 	outline: 2px solid white;
 }
 
