@@ -58,12 +58,20 @@ hr {
 
 }
 
+
+.heroimage{
+	 position: relative;
+}
+
 .carousel-caption{ /*caption box*/
-	top: 50%;
-  bottom: auto;
+  position: absolute;
+  top: 50%;
+  left: 25%;
   background-color: rgba(211, 211, 211, 0.7);
+  width:50%;
   height:20%;
   text-align:center;
+
 }
 
 .carousel-caption p{ /*caption box text*/
@@ -76,6 +84,21 @@ hr {
 	padding-left:10%;
 	padding-right:10%;
 }
+
+
+
+/*responsive*/
+
+@media only screen and (max-width: 980px) {
+
+.carousel-caption{
+	display: none;
+	}
+}
+
+
+
+
 
 .search{
 	padding:10px 0;
@@ -177,13 +200,30 @@ section {
 
 	/* size */
 	width: 150px;
-	padding: 10px 10px;
+    padding: 10px 10px;
+	
+	/* position */
+	position: relative;
+	margin-top:50px;
+	margin-left: auto;
+	margin-right:auto;
 }
 
 .support-button a{
 	color: white;
 	text-decoration: none;
 }
+
+
+.volunteer .support-button {
+	/* position */
+	position: relative;
+	margin-top: 74px;
+	
+}
+
+
+
 
 /* Models */
 
