@@ -302,6 +302,10 @@ section {
 	margin-top: 5em;
 }
 
+.sm-icon:focus {
+	outline: 2px solid white;
+}
+
 /* Community Service Page */
 .partner-logos img {
 	max-width: 100%;
