@@ -373,6 +373,15 @@ section {
 	width: 200px;
 }
 
+.fa-logo-info {
+	background-color: white;
+	padding:30px;
+	margin: 5%;
+	width: 200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
 .construction-page h1 {
 	color: white;
 	margin-bottom: 10px;
